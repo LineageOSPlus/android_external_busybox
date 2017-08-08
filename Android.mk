@@ -116,7 +116,7 @@ endif
 
 # Build the static lib for the recovery tool
 
-BUSYBOX_CONFIG:=minimal
+BUSYBOX_CONFIG:=full
 BUSYBOX_SUFFIX:=static
 LOCAL_SRC_FILES := $(BUSYBOX_SRC_FILES)
 LOCAL_C_INCLUDES := $(bb_gen)/minimal/include $(BUSYBOX_C_INCLUDES)
