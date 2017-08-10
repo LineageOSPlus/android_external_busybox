@@ -1,6 +1,7 @@
 /bin/[
 /bin/[[
 /sbin/adjtimex
+/bin/ar
 /sbin/arp
 /bin/ash
 /bin/awk
@@ -44,6 +45,8 @@
 /bin/dmesg
 /sbin/dnsd
 /bin/dos2unix
+/bin/dpkg
+/bin/dpkg-deb
 /bin/du
 /bin/echo
 /bin/ed

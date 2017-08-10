@@ -1,13 +1,16 @@
 android/libc/__set_errno.c
 
+archival/dpkg.c archival/dpkg_deb.c
 archival/bbunzip.c archival/bzip2.c archival/cpio.c archival/gzip.c
 archival/libarchive/common.c
+archival/libarchive/unpack_ar_archive.c archival/libarchive/get_header_ar.c
 archival/libarchive/lzo1x_1.c archival/libarchive/lzo1x_1o.c archival/libarchive/lzo1x_9x.c archival/libarchive/lzo1x_d.c archival/lzop.c
-archival/tar.c archival/unzip.c archival/libarchive/data_align.c
+archival/ar.c archival/tar.c archival/unzip.c archival/libarchive/data_align.c
 archival/libarchive/data_extract_all.c archival/libarchive/data_extract_to_command.c archival/libarchive/data_extract_to_stdout.c
 archival/libarchive/data_skip.c archival/libarchive/decompress_bunzip2.c archival/libarchive/decompress_unlzma.c
 archival/libarchive/decompress_unxz.c archival/libarchive/decompress_gunzip.c archival/libarchive/decompress_uncompress.c
 archival/libarchive/filter_accept_all.c archival/libarchive/filter_accept_list.c archival/libarchive/filter_accept_reject_list.c
+archival/libarchive/filter_accept_list_reassign.c
 archival/libarchive/find_list_entry.c archival/libarchive/get_header_cpio.c archival/libarchive/get_header_tar.c
 archival/libarchive/get_header_tar_bz2.c archival/libarchive/get_header_tar_gz.c archival/libarchive/get_header_tar_lzma.c
 archival/libarchive/header_list.c archival/libarchive/header_skip.c archival/libarchive/header_verbose_list.c
